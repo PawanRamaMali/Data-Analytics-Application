@@ -1,0 +1,49 @@
+
+#navbar {
+  background-color:#990000;
+  position:fixed;  
+  z-index:1; 
+}
+.navbar-form {
+  margin:0px;
+}
+
+.navbar .navbar-header{
+  margin-top:-5px;
+}
+
+.navbar-default{  
+  position: relative;
+  width:100%;
+}
+
+.logout-action-button {
+ padding: 8px;
+ z-index:3000;
+ float: right;
+ margin-right: 100px;
+}
+
+#logout-button {
+  position: fixed;
+  z-index: 3000;
+  margin-top: 15px;
+}
+
+
+#Logout {
+
+
+display: inline-block;
+padding: 16px 0px ;
+margin-bottom: 0 ;
+
+text-align: left ;
+white-space: nowrap ;
+vertical-align: middle ;
+cursor: pointer ;
+background-image: none ;
+border: none ;
+outline: none ;
+float:right;
+}
