@@ -1,4 +1,4 @@
-
+df = read.csv("C:/Users/Pawan/Documents/hmeq.csv")
 
 dsnames <- c()
 
@@ -12,8 +12,6 @@ data_set <- reactive({
 })
 
 data_r <-reactiveValues(data = data_set,name = "dataset")
-
-
 
 
 # output rendering functionality

@@ -37,20 +37,25 @@ tabPanel("Main",
                                          column(
                                            width = 6,
                                            br(),
-                                           br(),
-                                             actionButton("check_button", "Remove NA Values"),
-                                           br(),
-                                           br(),
-                                             actionButton("uncheck_button", "Mean Imputation"),
+                                           dataTableOutput("selectedrow_column"),
                                            br(),
                                            br(),
-                                           dataTableOutput("selectedrow_column")
+                                           br(),
+                                             actionButton("Apply_button", "Remove NA Values")
+                                         
+                                           
+                                           
                                              # ,
                                              # uiOutput("checkbox")
                                              # 
                                              
                                            
                                          )
-                                       )))
+                                       ),
+                                       fluidRow(
+                                         dataTableOutput("final_data_table")
+                                       )
+                                       
+                                       ))
                             )
                           ))))
