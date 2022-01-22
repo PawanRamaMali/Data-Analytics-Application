@@ -1,6 +1,6 @@
-# ✅ R-Shiny-Login-Template
+# ✅ Data-Analytics-Application
 
-R Shiny App template with Login functionality
+R Shiny App template for Data Analytics Application
 
 ## Motivation
 
